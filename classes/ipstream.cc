@@ -29,6 +29,9 @@
 #define Uses_PubStreamBuf
 #include <tv.h>
 
+#include <cstdio>
+using namespace std;
+
 ipstream::ipstream( CLY_streambuf *sb )
 {
     objs = new TPReadObjects();

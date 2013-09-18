@@ -16,6 +16,9 @@ Andris Pavenis.
 #if defined( Uses_TTextDevice ) && !defined( __TTextDevice )
 #define __TTextDevice
 
+#include <cstdio>
+using namespace std;
+
 class TRect;
 class TScrollBar;
 
